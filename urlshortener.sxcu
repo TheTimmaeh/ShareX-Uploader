@@ -1,0 +1,12 @@
+{
+  "Name": "Custom URL Shortener",
+  "DestinationType": "URLShortener",
+  "RequestType": "POST",
+  "RequestURL": "http://example.com/sharex.php",
+  "Arguments": {
+    "key": "Your API Key",
+    "url": "$input$"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}
