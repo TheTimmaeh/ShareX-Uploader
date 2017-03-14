@@ -1,0 +1,12 @@
+{
+  "Name": "Custom Image/File Uploader",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "http://example.com/sharex.php",
+  "FileFormName": "file",
+  "Arguments": {
+    "key": "Your API Key"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:url$"
+}
